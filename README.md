@@ -4,7 +4,12 @@
 
 ## Descripción
 
-App de presentación
+App de presentación personal para AUJ:
+
+* Pantalla Home: punto de entrada a la aplicación, el usuario tiene que tocar el logo de AUJ
+* Pantalla Why AUJ: descripción de los puntos más atractivos de ser parte de AUJ
+* Pantalla Why Me: descripción de mis puntos fuertes
+* Pantalla Links: links de interés para saber más sobre mí
 
 ## Stack
 
@@ -26,3 +31,5 @@ App de presentación
 6. Instalación y configuración de Expo Router.
 
 7. Creación de un issue para escribir el fichero CONTRIBUTING.md para definir el proceso de posible contribución al proyecto.
+
+8. Desarrollo de los screens de la app y la barra de navegación por tabs.
