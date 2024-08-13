@@ -13,14 +13,16 @@ App de presentación
 
 ## Pasos del desarrollo de la app
 
-1. Creación de la base del proyecto con el mínimo necesario de dependencias
+1. Creación de la base del proyecto. Utilizo el framework Expo que es la manera más recomendada para trabajar con React Native. Añado `--template blank` para tener el mínimo necesario de dependencias para empezar el proyecto.
 
-2. Instalación y configuración de ESLint y Prettier
+2. Instalación y configuración de ESLint y Prettier. Son mis herramientas preferidas para debugear y formatear el código.
 
-3. Instalación y configuración de Native Wind
+3. Instalación y configuración de Native Wind.
 
-4. Se añaden las imágenes del diseño creado en Figma
+4. Se añaden las imágenes del diseño creado en Figma.
 
-5. Instalación y configuración necesaria para usar Poppins de Google Fonts
+5. Instalación y configuración necesaria para usar Poppins de Google Fonts.
 
-6. Instalación y configuración de Expo Router
+6. Instalación y configuración de Expo Router.
+
+7. Creación de un issue para escribir el fichero CONTRIBUTING.md para definir el proceso de posible contribución al proyecto.
