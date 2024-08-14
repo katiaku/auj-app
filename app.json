@@ -8,9 +8,9 @@
     "userInterfaceStyle": "light",
     "scheme": "auj",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rocket_ship.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
@@ -19,7 +19,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#000000"
       }
     },
     "web": {
