@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, ImageBackground, Image } from "react-native";
+import { View, SafeAreaView, ImageBackground, Image } from "react-native";
 import ListItem from "../../components/ListItem";
 
 const WhyAUJ = () => {
@@ -14,12 +14,12 @@ const WhyAUJ = () => {
           resizeMode="fit"
           className="flex-1"
         >
-          <View className="flex-1 w-full bg-transparent justify-center items-center py-14">
+          <View className="flex-1 w-full bg-transparent justify-center items-start py-14">
             <ListItem text="Equípo" />
             <ListItem text="Intercambio" />
             <Image
               source={require("../../assets/img/team.png")}
-              className="rounded-3xl"
+              className="rounded-3xl self-center mt-4"
             />
             <ListItem text="Apollo" />
             <ListItem text="Aprendizaje" />
