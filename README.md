@@ -33,3 +33,5 @@ App de presentación personal para AUJ:
 7. Creación de un issue para escribir el fichero CONTRIBUTING.md para definir el proceso de posible contribución al proyecto.
 
 8. Desarrollo de los screens de la app y la barra de navegación por tabs.
+
+9. Se revisa y acepta el PR de una contribuidora para la resolución del punto 7. Se añade el fichero CONTRIBUTING.md al proyecto.
