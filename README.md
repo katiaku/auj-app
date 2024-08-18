@@ -11,6 +11,8 @@ App de presentación personal para AUJ:
 * Pantalla Why Me: descripción de mis puntos fuertes
 * Pantalla Links: links de interés para saber más sobre mí
 
+La aplicación está pensada tanto para iOS como Android.
+
 ## Stack
 
 * React Native (Expo framework)
@@ -35,3 +37,5 @@ App de presentación personal para AUJ:
 8. Desarrollo de los screens de la app y la barra de navegación por tabs.
 
 9. Se revisa y acepta el PR de una contribuidora para la resolución del punto 7. Se añade el fichero CONTRIBUTING.md al proyecto.
+
+10. Realización de pruebas manuales en iOS y Android.
