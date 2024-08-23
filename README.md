@@ -1,22 +1,27 @@
-// TODO: add info according to the progress
-
 # AUJ App
 
 ## Descripción
 
-App de presentación personal para AUJ:
+App de presentación personal para el grupo de trabajo de aplicaciónes móviles de AUJ:
 
-* Pantalla Home: punto de entrada a la aplicación, el usuario tiene que tocar el logo de AUJ
+* Pantalla Home: punto de entrada a la aplicación, el usuario tiene que tocar el logo de AUJ para seguir adelante
 * Pantalla Why AUJ: descripción de los puntos más atractivos de ser parte de AUJ
-* Pantalla Why Me: descripción de mis puntos fuertes
-* Pantalla Links: links de interés para saber más sobre mí
+* Pantalla Why Me: descripción de mis puntos fuertes como miembro de un equipo y desarrolladora en general
+* Pantalla Links: links de interés para saber más sobre mí (LinkedIn, GitHub, CodePen y portafolio)
 
 La aplicación está pensada tanto para iOS como Android.
 
-## Stack
+## Stack Tecnológico
 
 * React Native (Expo framework)
 * Native Wind (TailwindCSS para React Native)
+
+Y además:
+* Figma
+* GitHub
+* VSCode
+* Xcode
+* Android Studio
 
 ## Pasos del desarrollo de la app
 
@@ -38,4 +43,4 @@ La aplicación está pensada tanto para iOS como Android.
 
 9. Se revisa y acepta el PR de una contribuidora para la resolución del punto 7. Se añade el fichero CONTRIBUTING.md al proyecto.
 
-10. Realización de pruebas manuales en iOS y Android.
+10. Realización de pruebas manuales en iOS (iPhone 15) y Android (Pixel 4 API 35). Solución alternativa para Android: uso de elevation e instalación de paquete de google fonts.
