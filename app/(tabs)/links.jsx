@@ -33,7 +33,10 @@ const Links = () => {
                 }}
               >
                 <FontAwesome name="linkedin-square" size={24} color="white" />
-                <Text className="font-poppins text-white text-2xl">
+                <Text
+                  style={{ fontFamily: "Poppins_400Regular" }}
+                  className="font-poppins text-white text-2xl"
+                >
                   LinkedIn
                 </Text>
               </Pressable>
@@ -44,7 +47,12 @@ const Links = () => {
                 }}
               >
                 <FontAwesome name="github-alt" size={24} color="white" />
-                <Text className="font-poppins text-white text-2xl">GitHub</Text>
+                <Text
+                  style={{ fontFamily: "Poppins_400Regular" }}
+                  className="font-poppins text-white text-2xl"
+                >
+                  GitHub
+                </Text>
               </Pressable>
               <Pressable
                 className="flex-1 flex-row items-center justify-center gap-4"
@@ -53,7 +61,10 @@ const Links = () => {
                 }}
               >
                 <FontAwesome name="codepen" size={24} color="white" />
-                <Text className="font-poppins text-white text-2xl">
+                <Text
+                  style={{ fontFamily: "Poppins_400Regular" }}
+                  className="font-poppins text-white text-2xl"
+                >
                   CodePen
                 </Text>
               </Pressable>
@@ -64,7 +75,10 @@ const Links = () => {
                 }}
               >
                 <MaterialCommunityIcons name="web" size={24} color="white" />
-                <Text className="font-poppins text-white text-2xl">
+                <Text
+                  style={{ fontFamily: "Poppins_400Regular" }}
+                  className="font-poppins text-white text-2xl"
+                >
                   Portfolio
                 </Text>
               </Pressable>

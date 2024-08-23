@@ -49,6 +49,7 @@ const App = () => {
               height: 150,
               borderRadius: 20,
               marginBottom: 32,
+              elevation: shadowAnim, // Android
               shadowColor: "#fff",
               shadowOffset: { width: 0, height: 0 },
               shadowOpacity: 0.9,
