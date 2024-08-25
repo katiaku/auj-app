@@ -11,7 +11,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { useRouter } from "expo-router";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import {
   PanGestureHandler,
@@ -25,7 +25,6 @@ const App = () => {
   const translateX = useRef(new Animated.Value(0)).current;
   const translateY = useRef(new Animated.Value(0)).current;
   const shadowAnim = useRef(new Animated.Value(10)).current;
-  const [dropAreaLayout, setDropAreaLayout] = useState(null);
 
   useEffect(() => {
     Animated.loop(
@@ -121,7 +120,6 @@ const App = () => {
 
             <Pressable
               className="w-[150px] h-[150px] "
-              onLayout={(event) => setDropAreaLayout(event.nativeEvent.layout)}
               onPress={() => router.push("/why-auj")}
             >
               <Image
